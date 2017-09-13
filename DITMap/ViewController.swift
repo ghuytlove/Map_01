@@ -23,6 +23,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         myMapView.setRegion(region, animated: true)
         
+        //
         // Annotation(Pin) 꼽기
         let anno01 = MKPointAnnotation()
         anno01.coordinate = center
