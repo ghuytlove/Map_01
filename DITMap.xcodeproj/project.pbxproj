@@ -16,6 +16,7 @@
 		051D91671F57D506000A0D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051D91651F57D506000A0D18 /* LaunchScreen.storyboard */; };
 		051D91701F57D660000A0D18 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051D916F1F57D660000A0D18 /* MapKit.framework */; };
 		3CDBC57D1F68E99D00FF8861 /* ViewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBC57C1F68E99D00FF8861 /* ViewPoint.swift */; };
+		3CDBC57F1F68F79400FF8861 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBC57E1F68F79400FF8861 /* detailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		051D91681F57D506000A0D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		051D916F1F57D660000A0D18 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3CDBC57C1F68E99D00FF8861 /* ViewPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPoint.swift; sourceTree = "<group>"; };
+		3CDBC57E1F68F79400FF8861 /* detailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				050ED4CF1F5E82EA0085EEA2 /* citizen_logo.png */,
 				051D915C1F57D506000A0D18 /* AppDelegate.swift */,
 				051D915E1F57D506000A0D18 /* ViewController.swift */,
+				3CDBC57E1F68F79400FF8861 /* detailView.swift */,
 				3CDBC57C1F68E99D00FF8861 /* ViewPoint.swift */,
 				051D91601F57D506000A0D18 /* Main.storyboard */,
 				051D91631F57D506000A0D18 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				051D915F1F57D506000A0D18 /* ViewController.swift in Sources */,
+				3CDBC57F1F68F79400FF8861 /* detailView.swift in Sources */,
 				3CDBC57D1F68E99D00FF8861 /* ViewPoint.swift in Sources */,
 				051D915D1F57D506000A0D18 /* AppDelegate.swift in Sources */,
 			);
